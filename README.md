@@ -11,7 +11,10 @@ STTSilence, short for "Speed through the silence", is utility that speeds up the
 The main function provided by this module is `stts`. This function is responsible for speeding up the silent parts of a video.
 
 ```python
-from stts import stts
+# FIXME: At the moment, this doesn't work.
+#   from stts import stts
+# Rather, you have to go...
+from stts.stts import stts
 
 in_file = "video_with_annoying_pauses.mp4"
 out_file = "video_with_fewer_annoying_pauses.mp4"
