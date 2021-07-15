@@ -1,11 +1,11 @@
-import presets
+from stts.presets import slides
 
 from tqdm import tqdm
 from moviepy.editor import VideoFileClip, vfx, concatenate_videoclips
-from helper_functions import pairwise, find_silences
+from stts.helper_functions import pairwise, find_silences
 
 
-def stts(infile: str, outfile: str, duration: float=0.5, threshold: float=35, speed: float=3, preset: dict=presets.slides):
+def stts(infile: str, outfile: str, duration: float=0.5, threshold: float=35, speed: float=3, preset: dict=slides):
     """
     stts(input: str, output: str, duration: float, threshold: float, speed: float, preset: dict)
 
