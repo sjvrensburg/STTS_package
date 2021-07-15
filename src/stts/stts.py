@@ -38,8 +38,8 @@ def stts(infile: str, outfile: str, duration: float=0.5, threshold: float=35, sp
         # Create and append clip.
         clips.append(
             (video.subclip(clip_start, clip_end)
-            .volumex(int(not silent))
-            .fx(vfx.speedx, speed_)))
+            .multiply_volume(int(not silent))
+            .fx(vfx.multiply_speed, speed_)))
         silent = not silent
     
     final_video = concatenate_videoclips(clips)
