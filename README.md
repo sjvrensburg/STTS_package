@@ -13,7 +13,7 @@ pip install git+https://github.com/Zulko/moviepy.git
 
 Once you have installed MoviePy, one may install STTSilence from Github. Use the following command:
 ```
-https://github.com/sjvrensburg/STTS_package.git
+pip install git+ https://github.com/sjvrensburg/STTS_package.git
 ```
 
 STTSilence does not require any additional dependencies beyond that required by MoviePy.
