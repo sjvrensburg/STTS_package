@@ -6,7 +6,7 @@ STTSilence, short for "Speed through the silence", is utility that speeds up the
 
 This module depends on MoviePy. However, due to some issues with the current stable release of MoviePy, STTSilence uses the development version of MoviePy. At the time of writing, this is version 2.0.0.dev2.
 
-**NOTE:** Given the changes version 2 of MoviePy, the current stable release of MoviePy is incompatible with STTSilence. Therefore, you _must_ install MoviePy from Github. Use the following command:
+**NOTE:** Given the changes in version 2 of MoviePy, the current stable release of MoviePy is incompatible with STTSilence. Therefore, you _must_ install MoviePy from Github. Use the following command:
 ```
 pip install git+https://github.com/Zulko/moviepy.git
 ```
