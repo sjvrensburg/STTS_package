@@ -1,4 +1,4 @@
-**NOTE: There are far better tools available for the task of speeding up silent sections. I highly recommend that you rather use [unsilence](https://github.com/lagmoellertim/unsilence) or my simple front-end to it, which is part of the [PPVID](https://github.com/sjvrensburg/ppvid) set of tools.**
+**NOTE: There are far better tools available for the task of speeding up silent sections. I highly recommend that you rather use [unsilence](https://github.com/lagmoellertim/unsilence) or my simple front-end to it, which is part of the [PPVID](https://github.com/sjvrensburg/ppvid) set of tools. For this reason, I am archiving this repository.**
 
 # STTSilence
 
