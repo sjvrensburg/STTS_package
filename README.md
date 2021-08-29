@@ -1,3 +1,5 @@
+**NOTE: There are far better tools available for the task of speeding up silent sections. I highly recommend that you rather use [unsilence](https://github.com/lagmoellertim/unsilence) or my simple front-end to it, which is part of the [PPVID](https://github.com/sjvrensburg/ppvid) set of tools.**
+
 # STTSilence
 
 STTSilence, short for "Speed through the silence", is utility that speeds up the silent parts in a video. This is especially useful for lectures and slidecasts.
